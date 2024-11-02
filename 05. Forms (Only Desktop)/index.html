@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <main>
+        <section class="main flex">
+            <div class="container main__container">
+                <h1>Редактирование подписки</h1>
+                <div class="main__param flex">
+                    <h2>Параметры подписки сохранены</h2>
+                    <span>Перейти к созданию <a href="#">новой подписки</a> или к <a href="#">списку подписок</a></span>
+                </div>
+                <form class="main__form form flex" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                    <div class="form__theme theme">
+                        <div class="theme__selectBlock flex">
+                            <span class="theme__name name">Тема</span>
+                            <select name="Тема" id="" class="theme__select">
+                                <option>ИА тема</option>
+                                <option>ИА тема1</option>
+                                <option>ИА тема2</option>
+                            </select>
+                        </div>
+                        <div class="theme__textBlock flex">
+                            <div class="flex">
+                                <span class="name">E-mail</span>
+                                <span class="name">Можно ввести несколько email через запятую (не более 20)</span>
+                            </div>
+                            <div id="error-message"></div>
+                            <textarea class="theme__textarea" name="E-mail" id="" required></textarea>
+                        </div>
+                    </div>
+                    <div class="form__message message">
+                        <div class="message__mainTop flex">
+                            <span class="name">Получать</span>
+                            <div class="message__typeBlock flex">
+                                <label class="message__typeLabel flex">
+                                    <input type="radio" name="Тип сообщения" value="Новые сообщения" checked>
+                                    <span class="message__checkDescr">Новые сообщения</span>
+                                </label>
+                                <label class="message__typeLabel flex">
+                                    <input type="radio" name="Тип сообщения" value="Отчет">
+                                    <span class="message__checkDescr">Отчет</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="message__mainBottom flex">
+                            <div class="message__selectBlock flex">
+                                <span class="name">Периодичность</span>
+                                <select name="Периодичность в месяц" id="" class="message__select message__select_period">
+                                    <option>Раз в месяц</option>
+                                    <option>Два раза в месяц</option>
+                                    <option>три раза в месяц</option>
+                                </select>
+                            </div>
+                            <div class="flex">
+                                <span class="name">Время получения (UTC+3)</span>
+                                <div class="flex">
+                                    <div class="message__selectBlock flex">
+                                        <select name="Периодичность в часах" id="" class="message__select message__select_time">
+                                            <option>6 ч.</option>
+                                            <option>5 ч.</option>
+                                            <option>4 ч.</option>
+                                        </select>
+                                    </div>
+                                    <div class="flex message__selectBlock">
+                                        <select name="Периодичность в минутах" id="" class="message__select message__select_time">
+                                            <option>25 мин.</option>
+                                            <option>35 мин.</option>
+                                            <option>45 мин.</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__format format">
+                        <h3>Формат</h3>
+                        <ul class="format__choiceBlock flex">
+                            <label class="format__choice format__choice_active flex">
+                                <span class="format__imgDoc format__imgDoc_exc"></span>
+                                Excel
+                                <input class="format__docChoice" type="radio" name="Формат" value="Excel" checked/>
+                            </label>
+                            <label class="format__choice flex">
+                                <span class="format__imgDoc format__imgDoc_doc"></span>
+                                Word
+                                <input class="format__docChoice" type="radio" name="Формат" value="Word"/>
+                            </label>
+                            <label class="format__choice flex">
+                                <span class="format__imgDoc format__imgDoc_pdf"></span>
+                                Pdf
+                                <input class="format__docChoice" type="radio" name="Формат" value="Pdf"/>
+                            </label>
+                        </ul>
+                        <div class="format__title format__title_main flex">
+                            <span class="name">Заголовок</span>
+                            <input class="format__titleText" type="text" name="Заголовок" placeholder="Отчет">
+                        </div>
+                        <div class="format__title format__title_second flex">
+                            <span class="name">Подзаголовок</span>
+                            <input class="format__titleText" type="text" name="Подзаголовок" placeholder="Анализ упоминаний в социальных медиа">
+                        </div>
+                    </div>
+                    <div class="form__filter filter">
+                        <h3>Фильтр данных для отчета</h3>
+                        <ul class="flex">
+                            <li class="filter__item filter__item_active">
+                                Вся тема
+                                <input class="filter__choice" type="radio" name="Фильтр данных для отчета" value="Вся тема" checked>
+                            </li>
+                            <li class="filter__item">
+                                Выбранные теги
+                                <input class="filter__choice" type="radio" name="Фильтр данных для отчета" value="Выбранные теги">
+                            </li>
+                            <li class="filter__item">
+                                Выбранные персональные фильтры
+                                <input class="filter__choice" type="radio" name="Фильтр данных для отчета" value="Выбранные персональные фильтры">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="form__data data">
+                        <h3>Состав данных</h3>
+                        <ul class="data__checkBlock flex">
+                            <li>
+                                <label class="flex">
+                                    <input type="checkbox" name="Состав данных" value="Сводные данные" checked disabled>
+                                    <span>Сводные данные</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="flex">
+                                    <input type="checkbox" name="Состав данных" value="Сообщества">
+                                    <span>Сообщества</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="flex">
+                                    <input type="checkbox" name="Состав данных" value="Персоны">
+                                    <span>Персоны</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="flex">
+                                    <input type="checkbox"  name="Состав данных" value="Упоминания (максимум 20 000)" checked>
+                                    <span>Упоминания (максимум&nbsp;20&nbsp;000)</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="flex">
+                                    <input type="checkbox" name="Состав данных" value="География">
+                                    <span>География</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="flex">
+                                    <input type="checkbox" name="Состав данных" value="Юридические лица">
+                                    <span>Юридические лица</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="flex">
+                                    <input type="checkbox" name="Состав данных" value="Тональность">
+                                    <span>Тональность</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="flex">
+                                    <input type="checkbox" name="Состав данных" value="Теги" checked>
+                                    <span>Теги</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="flex">
+                                    <input type="checkbox" name="Состав данных" value="Места">
+                                    <span>Места</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="flex">
+                                    <input type="checkbox" name="Состав данных" value="Источники" checked>
+                                    <span>Источники</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="flex">
+                                    <input type="checkbox" name="Состав данных" value="Ссылки">
+                                    <span>Ссылки</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="flex">
+                                    <input type="checkbox" name="Состав данных" value="Сравнение с конкурентами">
+                                    <span>Сравнение с конкурентами</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="flex">
+                                    <input type="checkbox" name="Состав данных" value="Авторы">
+                                    <span>Авторы</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="flex">
+                                    <input type="checkbox" name="Состав данных" value="Популярные слова" checked>
+                                    <span>Популярные слова</span>
+                                </label>
+                            </li>
+                        </ul>
+                        <div class="data__lang flex">
+                            <span class="name">Язык</span>
+                            <div class="flex">
+                                <label class="flex">
+                                    <input type="radio" name="Язык" value="Русский" checked>
+                                    <span>Русский</span>
+                                </label>
+                                <label class="flex">
+                                    <input type="radio" name="Язык" value="Английский">
+                                    <span>Английский</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__activeBtnBlock">
+                        <label class="form__activeLabel flex">
+                            <input class="form__activeInput" type="checkbox" name="Подписка активна" checked>
+                            <span class="form__activeBtn flex">
+                                <span class="form__activeBall"></span>
+                            </span>
+                            <span class="form__activeDescr">Подписка активна</span>
+                        </label>
+                    </div>
+                    <button class="form__mainBtn flex">Сохранить изменения</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="js/greensock.js"></script>
+    <script type="text/javascript" src="js/scrollTrigger.js"></script>
+    <script type="text/javascript" src="js/jquery.inputmask.bundle.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

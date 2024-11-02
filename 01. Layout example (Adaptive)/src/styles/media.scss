@@ -1,0 +1,1446 @@
+@media (max-width: 1440px) {
+  main {
+    padding-block: min(1.4vw, 20px);
+  }
+
+  .container {
+    padding-inline: min(1.4vw, 20px);
+  }
+
+  .hero {
+    margin-bottom: min(5.6vw, 80px);
+
+    &__mainBlock {
+      min-height: min(57.0vw, 821px);
+      background-image: url(../img/hero_1440.jpg);
+    }
+
+    &__sliderNav {
+      width: min(2.8vw, 40px);
+      height: min(2.8vw, 40px);
+      border-radius: min(.5vw, 10px);
+      background-size: min(1.3vw, 24px) min(1.3vw, 24px);
+
+      &_next {
+        margin-right: min(1.4vw, 20px);
+      }
+
+      &_prev {
+        margin-left: min(1.4vw, 20px);
+      }
+    }
+  }
+
+  .header {
+    &__mainBlock {
+      padding-top: min(2.8vw, 40px);
+
+      padding-inline: min(1.4vw, 20px);
+      column-gap: min(1.0vw, 20px);
+    }
+
+    &__logoBlock {
+      width: min(5.6vw, 80px);
+      height: min(4.0vw, 57px);
+    }
+
+    &__navLink {
+      font-size: min(.9vw, 13px);
+      line-height: min(1.3vw, 18px);
+    }
+
+    &__listNav {
+      column-gap: min(.7vw, 10px);
+    }
+
+    &__tel {
+      padding-left: min(1.4vw, 20px);
+      font-size: min(.9vw, 13px);
+      line-height: min(1.3vw, 18px);
+
+      &::after {
+        width: min(1.1vw, 16px);
+        height: min(1.1vw, 16px);
+      }
+    }
+
+    &__acc {
+      padding-left: min(1.4vw, 20px);
+      font-size: min(.9vw, 13px);
+      line-height: min(1.3vw, 18px);
+
+      &::after {
+        width: min(1.1vw, 16px);
+        height: min(1.1vw, 16px);
+      }
+    }
+
+    &__bonus {
+      margin-left: min(.3vw, 4px);
+      font-size: min(.8vw, 12px);
+      line-height: min(1.3vw, 18px);
+    }
+
+    &__btnList {
+      column-gap: min(1.4vw, 20px);
+    }
+
+    &__button {
+      width: min(1.4vw, 20px);
+      height: min(1.4vw, 20px);
+    }
+
+    &__counter {
+      display: none;
+    }
+
+    &__accName {
+      overflow: hidden;
+      max-width: min(9.0vw, 130px);
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .new {
+    margin-bottom: min(5.6vw, 80px);
+
+    h2 {
+      font-size: min(2.4vw, 35px);
+      line-height: min(3.4vw, 49px);
+    }
+
+    &__titleBlock {
+      margin-bottom: min(2.2vw, 31px);
+    }
+
+    &__more {
+      padding: min(1.1vw, 16px) min(1.4vw, 20px);
+      border-radius: min(.7vw, 10px);
+      font-size: min(1.0vw, 14px);
+      line-height: min(1.3vw, 19px);
+
+      column-gap: min(.7vw, 10px);
+    }
+
+    &__slide {
+      max-width: 21.1%;
+      min-height: min(29.3vw, 422px);
+      margin-right: min(1.3vw, 18px);
+      padding: min(1.4vw, 20px);
+      border-radius: min(1.4vw, 20px);
+    }
+
+    &__goods {
+      width: min(18.1vw, 260px);
+      height: min(18.1vw, 260px);
+    }
+
+    &__newSpan {
+      font-size: min(1.0vw, 14px);
+      line-height: min(1.3vw, 19px);
+    }
+
+    &__likeBtn {
+      width: min(1.4vw, 20px);
+      height: min(1.4vw, 20px);
+      margin-left: 0;
+      background-size: contain;
+    }
+
+    &__topBlock {
+      margin-bottom: min(2.1vw, 30px);
+    }
+
+    &__name {
+      margin-bottom: min(.7vw, 10px);
+      padding: min(.3vw, 4px) min(.6vw, 8px);
+      border-radius: min(.3vw, 4px);
+      font-size: min(.8vw, 12px);
+      line-height: min(1.2vw, 17px);
+    }
+
+    & h3 {
+      margin: 0 auto min(1.4vw, 20px);
+
+      & a {
+        font-size: min(1.3vw, 18px);
+        line-height: min(1.7vw, 25px);
+      }
+    }
+
+    &__price {
+      font-size: min(1.4vw, 20px);
+      line-height: min(1.9vw, 28px);
+
+      column-gap: min(.9vw, 13px);
+
+      & span {
+        font-size: min(1.1vw, 16px);
+        line-height: min(1.7vw, 25px);
+      }
+    }
+
+    &__sliderNav {
+      width: min(2.8vw, 40px);
+      height: min(2.8vw, 40px);
+      border-radius: min(.7vw, 10px);
+      background-size: min(1.4vw, 20px) min(1.4vw, 20px);
+
+      &_next {
+        margin-right: min(.6vw, 12px) ;
+      }
+
+      &_prev {
+        margin-left: min(.5vw, 10px);
+      }
+    }
+  }
+
+  .collect {
+    &__container {
+      grid-template-columns: repeat(4, min(23.3vw, 335px));
+      grid-template-rows: min(12.4vw, 178px) min(9.4vw, 135px) min(12.4vw, 178px);
+      row-gap: min(1.4vw, 20px);
+    }
+
+    &__cards {
+      padding-left: min(.8vw, 12px);
+      border-radius: min(1.4vw, 20px);
+
+      &:has(h2) {
+        padding: min(.8vw, 11px);
+      }
+
+      &:nth-child(4) {
+        & .collect__imgBlock {
+          width: min(12.6vw, 181px);
+          height: min(16.6vw, 239px);
+        }
+
+        & .collect__arrow {
+          left: min(.8vw, 12px);
+        }
+      }
+
+      &:nth-child(5) {
+        & .collect__imgBlock {
+          width: min(12.6vw, 181px);
+          height: min(16.6vw, 239px);
+        }
+
+        & .collect__arrow {
+          left: min(.8vw, 12px);
+        }
+      }
+    }
+
+    &__name {
+      font-size: min(.7vw, 10px);
+      line-height: min(1.0vw, 14px);
+    }
+
+    &__nameBlock {
+      row-gap: min(.3vw, 4px);
+    }
+
+    &__descr {
+      max-width: min(11.4vw, 164px);
+      font-size: min(1.1vw, 16px);
+      line-height: min(1.5vw, 22px);
+    }
+
+    &__cardMain {
+      padding-top: min(.8vw, 12px);
+    }
+
+    &__imgBlock {
+      width: min(9.4vw, 135px);
+      height: min(12.4vw, 178px);
+    }
+
+    &__arrow {
+      width: min(2.2vw, 32px);
+      height: min(2.2vw, 32px);
+      margin-bottom: min(.8vw, 12px);
+      border-radius: min(.7vw, 10px);
+      background-size: min(1.4vw, 20px) min(1.4vw, 20px);
+    }
+
+    &__more {
+      padding: min(.9vw, 13px) min(1.1vw, 16px);
+      border-radius: min(.7vw, 10px);
+      font-size: min(.9vw, 13px);
+      line-height: min(1.3vw, 18px);
+
+      column-gap: min(.8vw, 12px);
+    }
+
+    h2 {
+      font-size: min(2.4vw, 35px);
+      line-height: min(3.4vw, 49px);
+    }
+
+    &__arrowMore {
+      width: min(1.4vw, 20px);
+      height: min(1.4vw, 20px);
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  main {
+    padding-block: min(1.7vw, 20px);
+  }
+
+  .container {
+    padding-inline: min(1.7vw, 20px);
+  }
+
+  .hero {
+    margin-bottom: min(6.7vw, 80px);
+
+    &__mainBlock {
+      min-height: min(56.7vw, 680px);
+      border-radius: min(1.7vw, 20px);
+      background-image: url(../img/hero_1200.jpg);
+    }
+
+    &__sliderNav {
+      width: min(3.3vw, 40px);
+      height: min(3.3vw, 40px);
+      border-radius: min(.8vw, 10px);
+      background-size: min(1.7vw, 20px) min(1.7vw, 20px);
+
+      &_next {
+        margin-right: min(1.7vw, 20px);
+      }
+
+      &_prev {
+        margin-left: min(1.7vw, 20px);
+      }
+    }
+  }
+
+  .header {
+    &__mainBlock {
+      padding-top: min(3.3vw, 40px);
+
+      padding-inline: min(1.7vw, 20px);
+    }
+
+    &__logoBlock {
+      width: min(6.7vw, 80px);
+      height: min(4.8vw, 57px);
+    }
+
+    &__navLink {
+      font-size: min(1.1vw, 13px);
+      line-height: min(1.5vw, 18px);
+    }
+
+    &__listNav {
+      column-gap: min(.8vw, 10px);
+    }
+
+    &__tel {
+      padding-left: min(1.7vw, 20px);
+      font-size: min(1.1vw, 13px);
+      line-height: min(1.5vw, 18px);
+
+      &::after {
+        width: min(1.3vw, 16px);
+        height: min(1.3vw, 16px);
+      }
+    }
+
+    &__acc {
+      padding-left: min(1.7vw, 20px);
+      font-size: min(1.1vw, 13px);
+      line-height: min(1.5vw, 18px);
+
+      &::after {
+        width: min(1.3vw, 16px);
+        height: min(1.3vw, 16px);
+      }
+    }
+
+    &__bonus {
+      margin-left: min(.3vw, 4px);
+      font-size: min(1.0vw, 12px);
+      line-height: min(1.5vw, 18px);
+    }
+
+    &__btnList {
+      column-gap: min(1.7vw, 20px);
+    }
+
+    &__button {
+      width: min(1.7vw, 20px);
+      height: min(1.7vw, 20px);
+    }
+
+    &__counter {
+      display: none;
+    }
+
+    &__accName {
+      max-width: min(10.8vw, 130px);
+    }
+  }
+
+  .new {
+    margin-bottom: min(6.7vw, 80px);
+
+    h2 {
+      font-size: min(2.9vw, 35px);
+      line-height: min(4.1vw, 49px);
+    }
+
+    &__titleBlock {
+      margin-bottom: min(2.6vw, 31px);
+    }
+
+    &__more {
+      padding: min(1.3vw, 16px) min(1.7vw, 20px);
+      border-radius: min(.8vw, 10px);
+      font-size: min(1.2vw, 14px);
+      line-height: min(1.6vw, 19px);
+
+      column-gap: min(.8vw, 10px);
+    }
+
+    &__slide {
+      max-width: 28.6%;
+      min-height: min(38.5vw, 462px);
+      margin-right: min(1.5vw, 18px);
+      padding: min(1.7vw, 20px);
+      border-radius: min(1.7vw, 20px);
+    }
+
+    &__goods {
+      width: min(21.7vw, 260px);
+      height: min(21.7vw, 260px);
+    }
+
+    &__newSpan {
+      font-size: min(1.2vw, 14px);
+      line-height: min(1.6vw, 19px);
+    }
+
+    &__likeBtn {
+      width: min(1.7vw, 20px);
+      height: min(1.7vw, 20px);
+    }
+
+    &__topBlock {
+      margin-bottom: min(2.5vw, 30px);
+    }
+
+    &__name {
+      margin-bottom: min(.8vw, 10px);
+      padding: min(.3vw, 4px) min(.7vw, 8px);
+      border-radius: min(.3vw, 4px);
+      font-size: min(1.0vw, 12px);
+      line-height: min(1.4vw, 17px);
+    }
+
+    & h3 {
+      & a {
+        font-size: min(1.5vw, 18px);
+        line-height: min(2.1vw, 25px);
+      }
+    }
+
+    &__price {
+      font-size: min(1.7vw, 20px);
+      line-height: min(2.3vw, 28px);
+
+      column-gap: min(1.1vw, 13px);
+
+      & span {
+        font-size: min(1.3vw, 16px);
+        line-height: min(2.1vw, 25px);
+      }
+    }
+
+    &__sliderNav {
+      width: min(3.3vw, 40px);
+      height: min(3.3vw, 40px);
+      border-radius: min(.8vw, 10px);
+      background-size: min(1.7vw, 20px) min(1.7vw, 20px);
+
+      &_next {
+        margin-right: min(1.7vw, 20px);
+      }
+
+      &_prev {
+        margin-left: min(1.7vw, 20px);
+      }
+    }
+  }
+
+  .collect {
+    &__container {
+      grid-template-columns: repeat(4, min(22.9vw, 275px));
+      grid-template-rows: min(14.8vw, 178px) min(10.9vw, 131px) min(14.8vw, 178px);
+      row-gap: min(1.7vw, 20px);
+    }
+
+    &__cards {
+      padding-left: min(1.0vw, 12px);
+      border-radius: min(1.7vw, 20px);
+
+      &:has(h2) {
+        padding: min(.8vw, 9px);
+      }
+
+      &:nth-child(4) {
+        & .collect__imgBlock {
+          width: min(15.1vw, 181px);
+          height: min(19.9vw, 239px);
+        }
+
+        & .collect__arrow {
+          left: min(1.0vw, 12px);
+        }
+      }
+
+      &:nth-child(5) {
+        & .collect__imgBlock {
+          width: min(15.1vw, 181px);
+          height: min(19.9vw, 239px);
+        }
+
+        & .collect__arrow {
+          left: min(1.0vw, 12px);
+        }
+      }
+    }
+
+    &__name {
+      font-size: min(.8vw, 10px);
+      line-height: min(1.2vw, 14px);
+    }
+
+    &__nameBlock {
+      row-gap: min(.3vw, 4px);
+    }
+
+    &__descr {
+      max-width: min(9.8vw, 118px);
+      font-size: min(1.3vw, 16px);
+      line-height: min(1.8vw, 22px);
+    }
+
+    &__cardMain {
+      padding-top: min(1.0vw, 12px);
+    }
+
+    &__imgBlock {
+      width: min(11.3vw, 135px);
+      height: min(14.8vw, 178px);
+    }
+
+    &__arrow {
+      width: min(2.7vw, 32px);
+      height: min(2.7vw, 32px);
+      margin-bottom: min(1.0vw, 12px);
+      border-radius: min(.8vw, 10px);
+      background-size: min(1.7vw, 20px) min(1.7vw, 20px);
+    }
+
+    &__more {
+      padding: min(1.1vw, 13px) min(1.3vw, 16px);
+      border-radius: min(.8vw, 10px);
+      font-size: min(1.1vw, 13px);
+      line-height: min(1.6vw, 19px);
+
+      column-gap: min(.8vw, 10px);
+    }
+
+    h2 {
+      font-size: min(2.9vw, 35px);
+      line-height: min(4.1vw, 49px);
+    }
+
+    &__arrowMore {
+      width: min(1.7vw, 20px);
+      height: min(1.7vw, 20px);
+    }
+  }
+
+  .header__navItem ul a {
+    font-size: 10px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 744px) {
+  main {
+    padding-block: min(2.7vw, 20px);
+  }
+
+  .container {
+    padding-inline: min(2.7vw, 20px);
+  }
+
+  .hero {
+    margin-bottom: min(8.1vw, 60px);
+
+    &__mainBlock {
+      min-height: min(55.5vw, 413px);
+      border-radius: min(2.7vw, 20px);
+      background-image: url(../img/hero_744.jpg);
+    }
+
+    &__sliderNav {
+      width: min(5.4vw, 40px);
+      height: min(5.4vw, 40px);
+      border-radius: min(1.3vw, 10px);
+      background-size: min(2.7vw, 20px) min(2.7vw, 20px);
+
+      &_next {
+        margin-right: min(1.3vw, 10px);
+      }
+
+      &_prev {
+        margin-left: min(1.3vw, 10px);
+      }
+    }
+  }
+
+  .header {
+    &__mainBlock {
+      padding-top: min(4.0vw, 30px);
+
+      padding-inline: min(1.3vw, 10px);
+    }
+
+    &__logoBlock {
+      width: min(9.4vw, 70px);
+      height: min(6.6vw, 49px);
+    }
+
+    & nav {
+      position: absolute;
+      z-index: 9999;
+      top: 0;
+      left: 0;
+      overflow-y: auto;
+      width: 360px;
+      height: 100vh;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 1);
+    }
+
+    &__nav {
+      transition: transform .3s ease-in-out;
+      transform: translateX(-500%);
+    }
+
+    &__listNav {
+      flex-direction: column;
+
+      row-gap: 20px;
+    }
+
+    &__navLink {
+      position: relative;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 19.12px;
+      color: rgba(35, 31, 32, 1);
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 16px;
+        height: 16px;
+        background-image: url(../img/arrow-down.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        transition: transform .3s ease-in-out;
+      }
+    }
+
+    &__cross {
+      width: 24px;
+      height: 24px;
+
+      stroke: white;
+    }
+
+    &__crossBtn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      margin-bottom: 40px;
+      margin-left: auto;
+      border-radius: 10px;
+      background-color: #231f20;
+    }
+
+    &__navItem {
+      & ul {
+        position: relative ;
+        padding: 10px;
+
+        grid-template-columns: 1fr ;
+        row-gap: 20px ;
+
+        & a {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 19.12px;
+          color: rgba(35, 31, 32, 1);
+        }
+      }
+    }
+
+    &__tel {
+      padding-left: min(2.7vw, 20px);
+      font-size: min(1.7vw, 13px);
+      line-height: min(2.4vw, 18px);
+
+      &::after {
+        width: min(2.2vw, 16px);
+        height: min(2.2vw, 16px);
+      }
+    }
+
+    &__acc {
+      padding-left: min(2.7vw, 20px);
+      font-size: min(1.7vw, 13px);
+      line-height: min(2.4vw, 18px);
+
+      &::after {
+        width: min(2.2vw, 16px);
+        height: min(2.2vw, 16px);
+      }
+    }
+
+    &__bonus {
+      margin-left: min(.5vw, 4px);
+      font-size: min(1.6vw, 12px);
+      line-height: min(2.6vw, 19px);
+    }
+
+    &__btnList {
+      column-gap: min(2.7vw, 20px);
+    }
+
+    &__button {
+      width: min(2.2vw, 16px);
+      height: min(2.2vw, 16px);
+    }
+
+    &__accName {
+      max-width: min(17.5vw, 130px);
+    }
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .new {
+    margin-bottom: min(8.1vw, 60px);
+
+    h2 {
+      font-size: min(4.0vw, 30px);
+      line-height: min(5.6vw, 42px);
+    }
+
+    &__titleBlock {
+      margin-bottom: min(4.7vw, 35px);
+    }
+
+    &__more {
+      padding: min(2.2vw, 16px) min(2.7vw, 20px);
+      border-radius: min(1.3vw, 10px);
+      font-size: min(1.9vw, 14px);
+      line-height: min(2.6vw, 19px);
+
+      column-gap: min(1.3vw, 10px);
+    }
+
+    &__slide {
+      max-width: 43.3%;
+      min-height: min(62.1vw, 462px);
+      margin-right: min(1.3vw, 10px);
+      padding: min(2.7vw, 20px);
+      border-radius: min(2.7vw, 20px);
+    }
+
+    &__goods {
+      width: min(34.9vw, 260px);
+      height: min(34.9vw, 260px);
+    }
+
+    &__newSpan {
+      font-size: min(1.9vw, 14px);
+      line-height: min(2.6vw, 19px);
+    }
+
+    &__likeBtn {
+      width: min(2.7vw, 20px);
+      height: min(2.7vw, 20px);
+    }
+
+    &__topBlock {
+      margin-bottom: min(4.0vw, 30px);
+    }
+
+    &__name {
+      margin-bottom: min(1.3vw, 10px);
+      padding: min(.5vw, 4px) min(1.1vw, 8px);
+      border-radius: min(.5vw, 4px);
+      font-size: min(1.6vw, 12px);
+      line-height: min(2.3vw, 17px);
+    }
+
+    & h3 {
+      & a {
+        font-size: min(1.5vw, 18px);
+        line-height: min(2.1vw, 25px);
+      }
+    }
+
+    &__price {
+      font-size: min(2.7vw, 20px);
+      line-height: min(3.8vw, 28px);
+
+      column-gap: min(1.7vw, 13px);
+
+      & span {
+        font-size: min(2.2vw, 16px);
+        line-height: min(2.1vw, 25px);
+      }
+    }
+
+    &__sliderNav {
+      width: min(5.4vw, 40px);
+      height: min(5.4vw, 40px);
+      border-radius: min(1.3vw, 10px);
+      background-size: min(2.7vw, 20px) min(2.7vw, 20px);
+
+      &_next {
+        margin-right: min(1.3vw, 10px);
+      }
+
+      &_prev {
+        margin-left: min(1.3vw, 10px);
+      }
+    }
+  }
+
+  .collect {
+    &__container {
+      grid-template-columns: repeat(3, min(30.6vw, 228px));
+      grid-template-rows: repeat(3, min(34.5vw, 257px));
+      row-gap: min(1.3vw, 10px);
+    }
+
+    &__cards {
+      padding-left: min(1.6vw, 12px);
+      border-radius: min(2.7vw, 20px);
+
+      &:has(h2) {
+        justify-content: center;
+        padding: min(1.3vw, 10px);
+      }
+
+      &:nth-child(1) {
+        grid-column: 1/2;
+        grid-row: 1/2;
+      }
+
+      &:nth-child(2) {
+        grid-column: 2/3;
+        grid-row: 1/2;
+      }
+
+      &:nth-child(3) {
+        grid-column: 3/4;
+        grid-row: 1/2;
+      }
+
+      &:nth-child(4) {
+        position: relative;
+        flex-direction: column;
+
+        grid-column: 3/4;
+        grid-row: 2/3;
+
+        & .collect__descr {
+          max-width: 100%;
+        }
+
+        & .collect__imgBlock {
+          width: min(18.1vw, 135px);
+          height: min(24.1vw, 179px);
+          margin-right: 0;
+          margin-left: auto;
+        }
+
+        & .collect__arrow {
+          position: absolute;
+          bottom: 0;
+          left: min(1.3vw, 10px);
+        }
+      }
+
+      &:nth-child(5) {
+        position: relative;
+        flex-direction: column;
+
+        grid-column: 1/2;
+        grid-row: 2/3;
+
+        & .collect__descr {
+          max-width: 100%;
+        }
+
+        & .collect__imgBlock {
+          width: min(18.1vw, 135px);
+          height: min(24.1vw, 179px);
+          margin-right: 0;
+          margin-left: auto;
+        }
+
+        & .collect__arrow {
+          position: absolute;
+          bottom: 0;
+          left: min(1.3vw, 10px);
+        }
+      }
+
+      &:nth-child(6) {
+        background-color: transparent;
+
+        grid-column: 2/3;
+        grid-row: 2/3;
+      }
+
+      &:nth-child(7) {
+        grid-column: 1/2;
+        grid-row: 3/4;
+      }
+
+      &:nth-child(8) {
+        grid-column: 2/3;
+        grid-row: 3/4;
+      }
+
+      &:nth-child(9) {
+        grid-column: 3/4;
+        grid-row: 3/4;
+      }
+    }
+
+    &__name {
+      font-size: min(.8vw, 10px);
+      line-height: min(2.6vw, 19px);
+    }
+
+    &__nameBlock {
+      row-gap: min(.5vw, 4px);
+    }
+
+    &__descr {
+      max-width: 100%;
+      font-size: min(1.9vw, 14px);
+      line-height: min(2.6vw, 19px);
+    }
+
+    &__cardMain {
+      padding-top: min(1.6vw, 12px);
+    }
+
+    &__imgBlock {
+      width: min(18.1vw, 135px);
+      height: min(24.1vw, 179px);
+      margin-top: auto;
+      margin-right: min(.7vw, 5px);
+    }
+
+    &__arrow {
+      width: min(4.0vw, 30px);
+      height: min(4.0vw, 30px);
+      margin-bottom: min(1.3vw, 10px);
+      border-radius: min(1.1vw, 8px);
+      background-size: min(2.7vw, 20px) min(2.7vw, 20px);
+    }
+
+    &__more {
+      padding: min(2.2vw, 16px) min(2.7vw, 20px);
+      border-radius: min(.8vw, 10px);
+      font-size: min(1.9vw, 14px);
+      line-height: min(2.6vw, 19px);
+
+      column-gap: min(1.3vw, 10px);
+    }
+
+    h2 {
+      margin-bottom: min(2.7vw, 20px);
+      font-size: min(4.0vw, 30px);
+      line-height: min(5.6vw, 42px);
+      text-align: center;
+    }
+
+    &__arrowMore {
+      width: min(3.2vw, 24px);
+      height: min(3.2vw, 24px);
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  main {
+    padding-block: max(2.8vw, 10px);
+  }
+
+  .container {
+    padding-inline: max(2.8vw, 10px);
+  }
+
+  .swiper-pagination {
+    bottom: min(-5.6vw, -20px) !important;
+    display: block;
+  }
+
+  .swiper-pagination-new {
+    position: absolute;
+    bottom: max(22.2vw, 80px) !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .swiper-pagination-bullet {
+    width: max(3.9vw, 14px);
+    height: max(1.4vw, 5px);
+    border-radius: 2px;
+    background-color: rgba(193, 193, 193, 1);
+    cursor: pointer;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: rgba(35, 31, 32, 1);
+  }
+
+  .hero {
+    position: relative;
+    margin-bottom: max(20.8vw, 75px);
+
+    &__mainBlock {
+      min-height: max(138.9vw, 500px);
+      border-radius: max(5.6vw, 20px);
+      background-image: url(../img/hero_320.jpg);
+    }
+
+    &__sliderNav {
+      display: none;
+    }
+  }
+
+  .header {
+    &__mainBlock {
+      padding-top: max(5.6vw, 20px);
+
+      padding-inline: max(2.8vw, 10px);
+    }
+
+    &__logoBlock {
+      width: max(13.9vw, 50px);
+      height: max(9.7vw, 35px);
+    }
+
+    &__tel {
+      padding-left: max(5.6vw, 20px);
+      font-size: max(3.6vw, 13px);
+      line-height: max(5.0vw, 18px);
+
+      &::after {
+        width: max(4.4vw, 16px);
+        height: max(4.4vw, 16px);
+      }
+    }
+
+    &__acc {
+      display: none;
+    }
+
+    &__btnList {
+      display: none;
+    }
+
+    &__btnList {
+      position: fixed;
+      right: max(2.8vw, 10px);
+      bottom: 0;
+      left: max(2.8vw, 10px);
+      display: flex;
+      justify-content: center;
+      width: calc(100% - max(5.6vw, 20px));
+      padding: max(5.6vw, 20px) max(19.4vw, 70px);
+      border-radius: max(4.4vw, 16px) max(4.4vw, 16px) 0 0;
+      background-color: rgba(255, 255, 255, 1);
+      box-shadow: 0 0 8.6px 0 rgba(22, 22, 24, .1);
+
+      column-gap: max(11.1vw, 40px);
+    }
+
+    &__button {
+      width: max(5.6vw, 20px);
+      height: max(5.6vw, 20px);
+
+      &_search {
+        background-image: url(../img/search_mob.svg);
+      }
+
+      &_search {
+        background-image: url(../img/search_mob.svg);
+      }
+
+      &_like {
+        background-image: url(../img/like_mob.svg);
+      }
+
+      &_basket {
+        background-image: url(../img/basket_mob.svg);
+      }
+
+      &_user {
+        display: block;
+        background-image: url(../img/user_mob.svg);
+      }
+    }
+  }
+
+  .burger {
+    width: max(4.4vw, 16px);
+    height: max(3.3vw, 12px);
+
+    & span {
+      border-radius: max(2.8vw, 10px);
+    }
+
+    &::after,
+    &::before {
+      content: "";
+      width: 100%;
+      height: 2px;
+      border-radius: max(2.8vw, 10px);
+    }
+  }
+
+  .new {
+    position: relative;
+    min-height: max(172.2vw, 620px);
+    margin-bottom: max(16.7vw, 60px);
+
+    h2 {
+      font-size: max(8.3vw, 30px);
+      line-height: max(11.7vw, 42px);
+    }
+
+    &__titleBlock {
+      margin-bottom: max(5.6vw, 20px);
+    }
+
+    &__more {
+      position: absolute;
+      bottom: 0;
+      left: max(22.8vw, 82px);
+      padding: max(5.6vw, 20px) max(7.8vw, 28px);
+      border-radius: max(2.8vw, 10px);
+      font-size: max(3.9vw, 14px);
+      line-height: max(5.3vw, 19px);
+
+      column-gap: max(2.8vw, 10px);
+    }
+
+    &__slide {
+      max-width: 100%;
+      min-height: max(117.2vw, 422px);
+      padding: max(5.6vw, 20px) 0;
+      border-radius: max(5.6vw, 20px);
+    }
+
+    &__goods {
+      width: max(72.2vw, 260px);
+      height: max(72.2vw, 260px);
+    }
+
+    &__newSpan {
+      padding-left: max(5.6vw, 20px);
+      font-size: max(3.9vw, 14px);
+      line-height: max(5.3vw, 19px);
+    }
+
+    &__likeBtn {
+      width: max(5.6vw, 20px);
+      height: max(5.6vw, 20px);
+      padding-right: max(5.6vw, 20px);
+    }
+
+    &__topBlock {
+      margin-bottom: max(5.6vw, 20px);
+    }
+
+    &__name {
+      margin-bottom: max(2.8vw, 10px);
+      padding: max(1.1vw, 4px) max(2.2vw, 8px);
+      border-radius: max(1.1vw, 4px);
+      font-size: max(3.3vw, 12px);
+      line-height: max(4.7vw, 17px);
+    }
+
+    & h3 {
+      & a {
+        font-size: max(5.0vw, 18px);
+        line-height: max(6.9vw, 25px);
+      }
+    }
+
+    &__price {
+      font-size: max(5.6vw, 20px);
+      line-height: max(7.8vw, 28px);
+
+      column-gap: max(3.6vw, 13px);
+
+      & span {
+        font-size: max(4.4vw, 16px);
+        line-height: max(6.9vw, 25px);
+      }
+    }
+
+    &__sliderNav {
+      display: none;
+    }
+  }
+
+  .collect {
+    position: relative;
+    padding-top: max(28.9vw, 104px);
+    padding-bottom: max(22.2vw, 80px);
+
+    &__container {
+      grid-template-columns: repeat(1, 100%);
+      grid-template-rows: auto;
+      row-gap: min(1.3vw, 10px);
+    }
+
+    &__cards {
+      padding-left: max(3.3vw, 12px);
+      border-radius: max(5.6vw, 20px);
+
+      &:nth-child(1) {
+        grid-column: 1/2;
+        grid-row: 1/2;
+      }
+
+      &:nth-child(2) {
+        grid-column: 1/2;
+        grid-row: 2/3;
+      }
+
+      &:nth-child(3) {
+        grid-column: 1/2;
+        grid-row: 3/4;
+      }
+
+      &:nth-child(4) {
+        position: relative;
+        flex-direction: row;
+
+        grid-column: 1/2;
+        grid-row: 5/6;
+
+        & .collect__descr {
+          max-width: 100%;
+        }
+
+        & .collect__imgBlock {
+          width: max(37.8vw, 136px);
+          height: max(50.0vw, 180px);
+          margin-right: 0;
+          margin-left: auto;
+        }
+
+        & .collect__arrow {
+          position: absolute;
+          bottom: 0;
+          left: min(1.3vw, 10px);
+        }
+      }
+
+      &:nth-child(5) {
+        position: relative;
+        flex-direction: row;
+
+        grid-column: 1/2;
+        grid-row: 6/7;
+
+        & .collect__descr {
+          max-width: 100%;
+        }
+
+        & .collect__imgBlock {
+          width: max(37.8vw, 136px);
+          height: max(50.0vw, 180px);
+          margin-right: 0;
+          margin-left: auto;
+        }
+
+        & .collect__arrow {
+          position: absolute;
+          bottom: 0;
+          left: min(1.3vw, 10px);
+        }
+      }
+
+      &:nth-child(6) {
+        width: max-content;
+        height: max-content;
+        margin: 0;
+        padding: 0;
+
+        grid-row: auto;
+        grid-column: auto;
+      }
+
+      &:nth-child(7) {
+        grid-column: 1/2;
+        grid-row: 7/8;
+      }
+
+      &:nth-child(8) {
+        grid-column: 1/2;
+        grid-row: 8/9;
+      }
+
+      &:nth-child(9) {
+        grid-column: 1/2;
+        grid-row: 9/10;
+      }
+    }
+
+    &__name {
+      font-size: max(2.8vw, 10px);
+      line-height: max(3.9vw, 14px);
+    }
+
+    &__nameBlock {
+      row-gap: max(1.1vw, 4px);
+    }
+
+    &__descr {
+      max-width: 100%;
+      font-size: max(3.9vw, 14px);
+      line-height: max(5.3vw, 19px);
+    }
+
+    &__cardMain {
+      padding-top: max(3.3vw, 12px);
+    }
+
+    &__imgBlock {
+      width: max(37.8vw, 136px);
+      height: max(50.0vw, 180px);
+      margin-top: auto;
+      margin-right: 0;
+    }
+
+    &__arrow {
+      width: max(8.3vw, 30px);
+      height: max(8.3vw, 30px);
+      margin-bottom: max(3.3vw, 12px);
+      border-radius: max(2.2vw, 8px);
+      background-size: max(5.6vw, 20px) max(5.6vw, 20px);
+    }
+
+    &__more {
+      position: absolute;
+      bottom: 0;
+      left: max(20.0vw, 72px);
+      padding: max(5.6vw, 20px) max(7.8vw, 28px);
+      border-radius: max(2.8vw, 10px);
+      font-size: max(3.9vw, 14px);
+      line-height: max(5.3vw, 19px);
+
+      column-gap: max(2.8vw, 10px);
+    }
+
+    h2 {
+      position: absolute;
+      top: 0;
+      left: max(2.8vw, 10px);
+      margin-bottom: 0;
+      font-size: max(8.3vw, 30px);
+      line-height: max(11.7vw, 42px);
+      text-align: left;
+    }
+
+    &__arrowMore {
+      width: max(6.7vw, 24px);
+      height: max(6.7vw, 24px);
+    }
+  }
+
+  .modal {
+    justify-content: flex-start;
+
+    &__main {
+      overflow-y: auto;
+      width: 360px;
+      min-height: 100vh;
+      border-radius: 0;
+    }
+
+    &__btnBlock {
+      align-items: flex-start;
+      flex-direction: column;
+
+      row-gap: 10px;
+    }
+
+    & form {
+      row-gap: 20px;
+    }
+  }
+}
+
+.none {
+  display: none !important;
+}
+
+.active {
+  display: flex;
+}
+
+.visible {
+  display: grid;
+}
+
+.stop-scroll {
+  overflow: hidden;
+}
+
+.transBurger {
+  transform: translateX(0);
+}
+
+.burgerTransform {
+  rotate: 270deg;
+}
+
+.up.header__navLink::after {
+  transform: rotate(180deg);
+}
