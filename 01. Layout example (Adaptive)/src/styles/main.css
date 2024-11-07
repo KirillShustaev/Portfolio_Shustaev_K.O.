@@ -1529,7 +1529,7 @@ main {
   background-image: url(../img/new_like.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 .new__topBlock {
   margin-bottom: min(1.6vw, 30px);
